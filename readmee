@@ -1,61 +1,54 @@
+# QuickBuy – Full-Stack E-Commerce Web Application
+
+QuickBuy is a full-stack e-commerce web application built to provide a smooth and responsive online shopping experience. The application allows users to browse products, manage their cart, and place orders through an intuitive interface connected to secure backend services.
+
+## Project Overview
+
+This project was developed to demonstrate practical full-stack web development skills using modern frontend and backend technologies. It focuses on product exploration, cart handling, user flow management, and payment-ready order processing.
+
+## Key Features
+
+- Users can browse products through a responsive product listing interface.
+- The application includes dedicated pages for cart management, user profile, and order history.
+- Centralized cart state management is implemented using Redux for consistent updates across pages.
+- React Router is used for seamless client-side navigation without full page reloads.
+- The frontend is connected to secure Node.js, Express.js, and MongoDB APIs.
+- Stripe payment integration supports order placement and checkout flow.
+
+## Tech Stack
+
+**Frontend**
+- React.js
+- Redux
+- React Router
+- HTML
+- CSS
+- JavaScript
+
+**Backend**
+- Node.js
+- Express.js
+
+**Database**
+- MongoDB
+
+**Payments**
+- Stripe
+
+## Application Flow
+
+1. The user opens the application and lands on the home or product listing page.
+2. The user browses products and selects items of interest.
+3. Selected items are added to the cart.
+4. Redux manages cart data and updates it across the application.
+5. The user navigates to the cart page to review or modify items.
+6. The user proceeds to checkout and places the order.
+7. Stripe payment is processed securely.
+8. Order details are stored through backend APIs connected to MongoDB.
+9. The user can later view profile information and order history.
 
 
 
 
-QuickBuy – MERN Stack E-Commerce Frontend
-
-QuickBuy is a fully responsive **e-commerce web application** built with **React.js** as part of a 2-member team.
-It provides a smooth shopping experience with product browsing, search, cart management, and order summary — all integrated with backend REST APIs for real-time updates.
 
 
-
-Features
-
-* **Product Listing & Search** – View products dynamically and filter them with a search bar
-* **Cart Management** – Add, update, and remove items in the cart with live updates
-* **Order Summary Page** – Review selected items, price details, and total before checkout
-* **Real-Time Feedback** – Toast notifications for cart actions, real-time quantity updates
-* **Responsive UI** – Works across desktops, tablets, and mobile devices
-
----
-
-Tech Stack
-
-* **Frontend:** React.js, HTML5, CSS3, JavaScript (ES6+)
-* **State Management:** React Hooks (`useState`, `useEffect`)
-* **API Communication:** REST APIs (Fetch/Axios)
-* **UI Enhancements:** Toast notifications, responsive layout
-
-Installation & Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/harikarthick06/QuickBuy.git
-cd QuickBuy
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
-```
-
-Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
-
----
-
- Contributing
-
-Contributions are welcome!
-Feel free to fork this repository, raise issues, or submit pull requests.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-See the [LICENSE](LICENSE) file for more details.
-
----
-
-Would you like me to make this **more visually appealing with badges** (e.g., React, License, Live Demo link) and a **live deployment section** (Netlify/Vercel link) if you host it?
